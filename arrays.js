@@ -36,7 +36,10 @@ function removeElementFromBeginningOfArray(array)
 function destructivelyAddElementToBeginningOfArray(array , element)
 {
   //return array.shift(element);
-  return array.unshift(element)
+  //return array.unshift(element)
+  array.unshift(element)
+  return array
+  
 }
 
 // destructively ADD an element to the END
