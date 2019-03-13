@@ -46,8 +46,11 @@ function destructivelyAddElementToBeginningOfArray(array , element)
 // destructively ADD an element to the END
 function destructivelyAddElementToEndOfArray(array , element)
 {
-  return array.push(element)
-} // ended up putting this in twice at one point
+  var newArray = array
+  newArray.push(element)
+  return newArray
+  //return array.push(element)
+} 
 
 // destructively REMOVE an element from the BEGINNING
 function destructivelyRemoveElementFromBeginningOfArray(array)
