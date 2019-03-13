@@ -54,7 +54,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array)
 // destrutively REMOVE an element from the END
 function destructivelyRemoveElementFromEndOfArray(array)
 {
-  return array.pop();
+  array.pop();
+  return array;
+  //return array.pop();
 }
 
 // U REMOVE element from the END of an array
