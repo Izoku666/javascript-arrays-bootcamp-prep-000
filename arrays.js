@@ -29,10 +29,8 @@ function addElementToEndOfArray(array , element)
 // U remove element from beginning
 function removeElementFromBeginningOfArray(array)
 {
-  // shift?
-  var newArray = array
-  newArray.shift()
-  return newArray
+   var newSlice = array.slice(1 , array.length-1)
+   return newSlice
 }
 
 // destructively ADD an element to the BEGINNING
