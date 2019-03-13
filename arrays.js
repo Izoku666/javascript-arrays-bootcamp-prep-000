@@ -30,6 +30,9 @@ function addElementToEndOfArray(array , element)
 function removeElementFromBeginningOfArray(array)
 {
   // shift?
+  var newArray = array
+  newArray.shift()
+  return newArray
 }
 
 // destructively ADD an element to the BEGINNING
